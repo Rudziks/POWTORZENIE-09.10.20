@@ -1,0 +1,117 @@
+.main-icon {
+    font-size: 2rem;
+  }
+  
+  .main-icon-border {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: white;
+    background-color: aqua;
+    margin: 0 auto;
+  }
+  
+  .main-icon-center {
+    margin-top: 25px;
+  }
+  
+  .main-font-1 {
+    text-align: center;
+  }
+  
+  img:hover {
+   animation-name: zoom;
+   animation-duration: 2000ms;
+  }
+  
+  @keyframes zoom{
+    from{
+      width: 100%;
+      height: 100%;
+    }to{
+        transform: scale(1.5);
+    }
+  }
+  
+  .main-nav{
+      position: fixed;
+      width: 100%;
+      background-color: red;
+      z-index: 100;
+  }
+  
+  .main-margin-nav{
+      font-size: 1rem;
+      color:white;
+  }
+  
+  .main-img{
+      overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+  
+  .main-font-italic{
+      font-style: italic;
+  }
+  
+  .main-font-nav-a{
+      font-size: 30px;
+      color:white;
+  }
+  
+  .main-mg{
+      padding-top: 70px;
+  }
+  
+  .main-margin-nav-hover:hover{
+      color: black;
+  }
+  
+  .main-nav:hover{
+      background-color:aqua;
+  }
+  
+  .bg-img{
+      background-image: url(./nc1.jpg);
+      height: 100vh;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .caption{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: black;
+  }
+  
+  .caption span.border{
+      border: 0px rgba(0, 0, 0, 0);
+      padding:18px;
+      font-size: 50px;
+      letter-spacing: 10px;
+  }
+  
+  .main-font-p{
+      font-size: 8rem;
+      color: white;
+  }
+  
+  .main-h1 {
+    text-align: center;
+  }
+  
+  .main-p1 {
+    text-align: center;
+  }
+  
